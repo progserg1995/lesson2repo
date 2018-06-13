@@ -1,0 +1,258 @@
+.tabledesc {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.tabledesc .margin-right {
+  margin-right: 390px;
+}
+.tabledesc h5 {
+  margin-right: 50px;
+}
+hr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #000000;
+  width: 1140px;
+  height: 1px;
+}
+.cartcontent {
+  height: 165px;
+}
+.cartcontent a {
+  width: 100px;
+  height: 115px;
+  display: inline-block;
+  margin: 25px 0;
+}
+.cartcontent__name {
+  position: relative;
+  bottom: 90px;
+  left: 20px;
+}
+.cartcontent__param {
+  position: relative;
+  left: 125px;
+  bottom: 90px;
+  text-transform: capitalize;
+  color: #575757;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  font-weight: bolder;
+}
+.cartcontent__param span {
+  color: #6f6e6e;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+.cartcontent__param__price {
+  position: absolute;
+  left: 420px;
+  bottom: 65px;
+}
+.cartcontent__param__quanity input[type="number"] {
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 54px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  left: 550px;
+  bottom: 59px;
+}
+.cartcontent__param__shipping {
+  text-transform: uppercase;
+  position: absolute;
+  right: 430px;
+  bottom: 65px;
+}
+.cartcontent__param__subtotal {
+  position: absolute;
+  right: 315px;
+  bottom: 65px;
+}
+.cartcontent__param__action {
+  position: absolute;
+  right: 200px;
+  bottom: 65px;
+}
+.cartbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cartbuttons__clearcart {
+  text-transform: uppercase;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 235px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 1s;
+}
+.cartbuttons__clearcart:hover {
+  background-color: #000000;
+  color: white;
+}
+.cartbuttons__continueshopping {
+  text-transform: uppercase;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 235px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 1s;
+}
+.cartbuttons__continueshopping:hover {
+  background-color: #000000;
+  color: white;
+}
+.orderwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orderwrap__shippingadress {
+  display: flex;
+  flex-direction: column;
+}
+.orderwrap__shippingadress__name {
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+.orderwrap__shippingadress input[type],
+.orderwrap__shippingadress input[list] {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 355px;
+  height: 45px;
+  margin-top: 25px;
+}
+.orderwrap__shippingadress button {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 35px;
+  transition: background-color 1s;
+}
+.orderwrap__shippingadress button:hover {
+  background: #000000;
+  color: white;
+}
+.orderwrap__coupon {
+  display: flex;
+  flex-direction: column;
+}
+.orderwrap__coupon__name {
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+.orderwrap__coupon__desc {
+  margin-top: 25px;
+}
+.orderwrap__coupon input[type="text"] {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 355px;
+  height: 45px;
+  margin-top: 25px;
+}
+.orderwrap__coupon button {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 118px;
+  height: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  transition: background-color 1s;
+}
+.orderwrap__coupon button:hover {
+  background-color: #000000;
+  color: white;
+}
+.orderwrap__total {
+  background-color: #f5f3f3;
+  width: 360px;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.orderwrap__total__subtotal {
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: right;
+  margin: 40px 40px;
+  text-transform: uppercase;
+}
+.orderwrap__total__subtotal span {
+  margin-left: 10px;
+}
+.orderwrap__total__grandtotal {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0 40px;
+  text-transform: uppercase;
+}
+.orderwrap__total__grandtotal span {
+  color: #f16d7f;
+  margin-left: 10px;
+}
+.orderwrap__total hr {
+  width: 273px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.orderwrap__total form {
+  display: inline;
+  align-self: center;
+}
+.orderwrap__total button {
+  background-color: #f16d7f;
+  width: 273px;
+  height: 50px;
+  text-transform: uppercase;
+  color: white;
+  transition: background-color 1s;
+}
+.orderwrap__total button:hover {
+  background-color: white;
+  color: #f16d7f;
+}

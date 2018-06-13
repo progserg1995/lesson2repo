@@ -1,0 +1,193 @@
+.order-settings {
+    &__left {
+        float: left;
+        &__content {
+            display: flex;
+            flex-direction: column;
+            margin-left: 25px;
+            &__fst {
+                margin-top: 90px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            &__desc {
+                margin-top: 50px;
+                text-transform: uppercase;
+                &_light {
+                    display: inline-block;
+                    width: 500px;
+                    margin-top: 10px;
+                    color: #b3b2b2;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    text-transform: initial;
+                }
+            }
+            &__check {
+                width: 200px;
+                input[type] {
+                    margin-right: 3px;
+                    border-radius: 50%;
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: #555555;
+                    box-sizing: border-box;
+                    background-color: #ffffff;
+                    width: 14px;
+                    height: 14px;
+                    margin-top: 20px;
+                   
+                }
+                span {
+                    color: #222222;
+                    font-size: 12px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+            }
+            &__registermsg {
+                text-transform: uppercase;
+                margin-top: 35px;
+            }
+            &__registerdesc {
+                margin-top: 15px;
+                color: #b3b2b2;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 20px;
+                &_light {
+                    margin-top: 20px;
+                }
+            }
+            form {
+                input[type="button"] {
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #eaeaea;
+                    box-sizing: border-box;
+                    background-color: #ffffff;
+                    width: 180px;
+                    height: 50px;
+                    margin-top: 40px;
+                    margin-bottom: 80px;
+                    transition: background-color 1s;
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    &__right {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 155px;
+            &__desc {
+                text-transform: uppercase;
+                &_light {
+                    display: inline-block;
+                    width: 500px;
+                    margin-top: 10px;
+                    color: #b3b2b2;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    text-transform: initial;
+                }
+                &_red {
+                    color: #ff0d0d;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    margin-top: 10px;
+                }
+            }
+            &__email {
+                text-transform: uppercase;
+                margin: 20px 0;
+                &::after {
+                    content: '*';
+                    color: #ff0d0d;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    margin-left: 5px;
+                }
+            }
+            input[type="email"] {
+                border-style: solid;
+                border-width: 1px;
+                border-color: #eaeaea;
+                box-sizing: border-box;
+                background-color: #ffffff;
+                width: 390px;
+                height: 45px;
+                padding-left: 10px;
+            }
+            &__password {
+                text-transform: uppercase;
+                margin: 20px 0;
+                &::after {
+                    content: '*';
+                    color: #ff0d0d;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    margin-left: 5px;
+                }
+            }
+            input[type="password"] {
+                border-style: solid;
+                border-width: 1px;
+                border-color: #eaeaea;
+                box-sizing: border-box;
+                background-color: #ffffff;
+                width: 390px;
+                height: 45px;
+                padding-left: 10px;
+            }
+            &__loginbutton {
+                margin-top: 30px;
+                input[type="button"] {
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #eaeaea;
+                    box-sizing: border-box;
+                    background-color: #ffffff;
+                    width: 180px;
+                    height: 50px;
+                    margin-right: 25px;
+                    transition: background-color 1s;
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    color: #222222;
+                }
+            }
+        }
+    }
+    ul {
+        clear: both;
+        margin-left: 25px;
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        li {
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+}

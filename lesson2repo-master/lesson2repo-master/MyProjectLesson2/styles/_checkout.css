@@ -1,0 +1,184 @@
+.order-settings__left {
+  float: left;
+}
+.order-settings__left__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.order-settings__left__content__fst {
+  margin-top: 90px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.order-settings__left__content__desc {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.order-settings__left__content__desc_light {
+  display: inline-block;
+  width: 500px;
+  margin-top: 10px;
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-transform: initial;
+}
+.order-settings__left__content__check {
+  width: 200px;
+}
+.order-settings__left__content__check input[type] {
+  margin-right: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #555555;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 14px;
+  height: 14px;
+  margin-top: 20px;
+}
+.order-settings__left__content__check span {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.order-settings__left__content__registermsg {
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+.order-settings__left__content__registerdesc {
+  margin-top: 15px;
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.order-settings__left__content__registerdesc_light {
+  margin-top: 20px;
+}
+.order-settings__left__content form input[type="button"] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 180px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  transition: background-color 1s;
+}
+.order-settings__left__content form input[type="button"]:hover {
+  background-color: black;
+  color: white;
+}
+.order-settings__right__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 155px;
+}
+.order-settings__right__content__desc {
+  text-transform: uppercase;
+}
+.order-settings__right__content__desc_light {
+  display: inline-block;
+  width: 500px;
+  margin-top: 10px;
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-transform: initial;
+}
+.order-settings__right__content__desc_red {
+  color: #ff0d0d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
+}
+.order-settings__right__content__email {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.order-settings__right__content__email::after {
+  content: '*';
+  color: #ff0d0d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 5px;
+}
+.order-settings__right__content input[type="email"] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 390px;
+  height: 45px;
+}
+.order-settings__right__content__password {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.order-settings__right__content__password::after {
+  content: '*';
+  color: #ff0d0d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 5px;
+}
+.order-settings__right__content input[type="password"] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 390px;
+  height: 45px;
+}
+.order-settings__right__content__loginbutton {
+  margin-top: 30px;
+}
+.order-settings__right__content__loginbutton input[type="button"] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 180px;
+  height: 50px;
+  margin-right: 25px;
+  transition: background-color 1s;
+}
+.order-settings__right__content__loginbutton input[type="button"]:hover {
+  background-color: black;
+  color: white;
+}
+.order-settings__right__content__loginbutton a {
+  text-decoration: none;
+  color: #222222;
+}
+.order-settings ul {
+  clear: both;
+  margin-left: 25px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.order-settings ul li {
+  height: 50px;
+  line-height: 50px;
+}
