@@ -75,9 +75,28 @@ body {
     text-align: center;
 }
 
-.header-right a {
-    width: 32px;
-    height: 29px;
+.header-right {
+    .cartimg {
+        position: relative;
+        top: 10px;
+        margin-right: 10px;
+        
+    }
+    .accountbtn {
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+        border: 1px solid grey;
+        background: #f16d7f;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+        transition: background 1s;
+        &:hover {
+            background: white;
+            color: black;
+        }
+    }
 }
 
 .myaccount {
@@ -106,7 +125,7 @@ body {
             margin-left: 20px;
             width: 250px;
             margin-top: 10px;
-            &__name {
+            h4 {
                 font-weight: bold;
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -132,19 +151,19 @@ body {
             margin-left: 20px;
             width: 250px;
             margin-top: 10px;
-            &__name {
+            h4 {
                 font-weight: bold;
                 margin-top: 10px;
                 margin-bottom: 10px;
                 display: block;
                 border-bottom: 4px solid #e8e8e8;
-                &_margin {
-                    font-weight: bold;
-                    margin-top: 20px;
-                    margin-bottom: 10px;
-                    display: block;
-                    border-bottom: 4px solid #e8e8e8;
-                }
+            }
+            .margin {
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: block;
+                border-bottom: 4px solid #e8e8e8;
             }
             a {
                 color: #646464;
@@ -169,7 +188,7 @@ body {
             margin-left: 20px;
             width: 250px;
             margin-top: 10px;
-            &__name {
+            h4 {
                 font-weight: bold;
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -197,7 +216,7 @@ body {
                 top: 10px;
                 width: 255px;
                 height: 118px;
-                background-image: url("../images/Layer 42.png");
+                background-image: url("../images/Layer_42.png");
                 a {
                     width: 255px;
                     display: block;
@@ -574,7 +593,7 @@ body {
     height: 438px;
     position: relative;
     top: 400px;
-    background: url("../images/Layer 41.png") no-repeat;
+    background: url("../images/Layer_41.png") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -764,6 +783,7 @@ footer {
     line-height: 32px;
     text-decoration: none;
     color: #b2b2b2;
+    transition: background-color 1s;
 }
 
 .soclinks :hover {
@@ -813,6 +833,10 @@ footer {
     font-weight: 300;
     line-height: 20px;
     text-align: center;
+    transition: color 1s;
+    &:hover {
+        color: #f16d7f;
+    }
 }
 
 .wayto a span {
@@ -821,6 +845,10 @@ footer {
     font-weight: 700;
     line-height: 20px;
     text-align: center;
+    transition: color 1s;
+    &:hover {
+        color: white;
+    }
 }
 
 .submenu_category {
@@ -894,7 +922,6 @@ footer {
     margin-left: 20px;
     margin-top: 20px;
     width: 870px;
-   
 }
 
 .productviewbox :nth-child(3n) {
@@ -1158,7 +1185,7 @@ details[open]>summary::after {
     height: 438px;
     position: relative;
     top: 300px;
-    background: url("../images/Layer 41.png") no-repeat;
+    background: url("../images/Layer_41.png") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;

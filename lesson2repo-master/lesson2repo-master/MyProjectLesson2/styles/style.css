@@ -270,6 +270,26 @@ hr {
   background-color: white;
   color: #f16d7f;
 }
+.header-right .cartimg {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+.header-right .accountbtn {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  border: 1px solid grey;
+  background: #f16d7f;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+  transition: background 1s;
+}
+.header-right .accountbtn:hover {
+  background: white;
+  color: black;
+}
 .order-settings__left {
   float: left;
 }
@@ -455,6 +475,7 @@ hr {
 .order-settings ul li {
   height: 50px;
   line-height: 50px;
+  border-bottom: 1px solid black;
 }
 * {
   margin: 0;
@@ -520,9 +541,25 @@ body {
   line-height: 32px;
   text-align: center;
 }
-.header-right a {
-  width: 32px;
-  height: 29px;
+.header-right .cartimg {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+.header-right .accountbtn {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  border: 1px solid grey;
+  background: #f16d7f;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+  transition: background 1s;
+}
+.header-right .accountbtn:hover {
+  background: white;
+  color: black;
 }
 .myaccount {
   background-color: #f16d7f;
@@ -552,7 +589,7 @@ body {
   width: 250px;
   margin-top: 10px;
 }
-.menu .megamenu__womenfst__name {
+.menu .megamenu__womenfst h4 {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -578,16 +615,16 @@ body {
   width: 250px;
   margin-top: 10px;
 }
-.menu .megamenu__womenscnd__name {
+.menu .megamenu__womenscnd h4 {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
   border-bottom: 4px solid #e8e8e8;
 }
-.menu .megamenu__womenscnd__name_margin {
+.menu .megamenu__womenscnd .margin {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   display: block;
   border-bottom: 4px solid #e8e8e8;
@@ -615,7 +652,7 @@ body {
   width: 250px;
   margin-top: 10px;
 }
-.menu .megamenu__womenthird__name {
+.menu .megamenu__womenthird h4 {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -643,7 +680,7 @@ body {
   top: 10px;
   width: 255px;
   height: 118px;
-  background-image: url("../images/Layer 42.png");
+  background-image: url("../images/Layer_42.png");
 }
 .menu .megamenu__womenthird__img a {
   width: 255px;
@@ -973,7 +1010,7 @@ body {
   height: 438px;
   position: relative;
   top: 400px;
-  background: url("../images/Layer 41.png") no-repeat;
+  background: url("../images/Layer_41.png") no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -1143,6 +1180,7 @@ footer {
   line-height: 32px;
   text-decoration: none;
   color: #b2b2b2;
+  transition: background-color 1s;
 }
 .soclinks :hover {
   background-color: #f16d7f;
@@ -1186,6 +1224,10 @@ footer {
   font-weight: 300;
   line-height: 20px;
   text-align: center;
+  transition: color 1s;
+}
+.wayto a:hover {
+  color: #f16d7f;
 }
 .wayto a span {
   color: #f16d7f;
@@ -1193,6 +1235,10 @@ footer {
   font-weight: 700;
   line-height: 20px;
   text-align: center;
+  transition: color 1s;
+}
+.wayto a span:hover {
+  color: white;
 }
 .submenu_category {
   float: left;
@@ -1498,7 +1544,7 @@ details[open] > summary::after {
   height: 438px;
   position: relative;
   top: 300px;
-  background: url("../images/Layer 41.png") no-repeat;
+  background: url("../images/Layer_41.png") no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-between;
